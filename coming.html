@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Untitled Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" type="text/css" href="css/MyFontsWebfontsKit/MyFontsWebfontsKit.css">
+		<link href="css/hover.css" rel="stylesheet" media="all">
+		<link rel="stylesheet" href="css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script src="build/js/vendor.min.js"></script>
+		<script type="text/javascript" src="build/js/app.js"></script>
+		<script src="/bower_components/jquery.countdown/dist/jquery.countdown.js"></script>
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<!-- <span class="symbol"><img src="images/corneezy.png" alt="" /></span><span class="title"></span> -->
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<div="text-center"><h1 id="getting-started"></h1></div>
+							<span class="image main"><img src="css/images/butterflysketch.jpg"  /></span>
+						</div>
+					</div>
+
+				<!-- Footer -->
+
+
+			</div>
+
+			<!-- Scripts -->
+				<script src="js/jquery.min.js"></script>
+				<script src="js/jquery.countdown.min.js"></script>
+				<script src="js/skel.min.js"></script>
+				<script src="js/util.js"></script>
+				<script src="js/main.js"></script>
+				<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+				<script type="text/javascript">
+					$("#getting-started").countdown("2016/11/27", function(event) {
+						$(this).text(
+							event.strftime('%D:%H:%M:%S')
+						);
+					});
+				</script>
+	</body>
+</html>
