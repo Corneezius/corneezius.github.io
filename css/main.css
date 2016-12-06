@@ -3424,3 +3424,100 @@
 	#getting-started {
 		text-align:center;
 	}
+
+	ul#pages li {
+		display:inline;
+		font-family:AfCamberwellone;
+		font-weight:100;
+		font-size:40px;
+		letter-spacing: 2px;
+	}
+
+	.frames {
+		width: 75%;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.album {
+		margin:0 auto;
+	}
+
+	.tracks {
+			padding-left:40px;
+			color:white;
+			font-family:AFCamberwellOne;
+			font-weight:500;
+			font-size:30px;
+			background-color: #000;
+			width:100%;
+			border-radius:2.5px;
+			margin-bottom:10px;
+			position: relative;
+			overflow: hidden;
+	}
+
+
+	.tracks .text {
+		display:table;
+		width:100%;
+	}
+
+	.tracks .text h2{
+			letter-spacing:1px;
+			padding-top:40px;
+			padding-bottom:40px;
+			color:transparent;
+			font-weight:100;
+			display: table-cell;
+	 		vertical-align: middle;
+			text-align: left;
+	}
+
+
+
+	/*.tracks img{
+		max-height: 100%;
+		max-width: 100%;
+		z-index:-1;
+	}*/
+
+	.hvr-grow {
+	  display: inline-block;
+	  vertical-align: middle;
+	  -webkit-transform: perspective(1px) translateZ(0);
+	  transform: perspective(1px) translateZ(0);
+	  box-shadow: 0 0 1px transparent;
+	  -webkit-transition-duration: 0.4s;
+	  transition-duration: 0.s;
+	  -webkit-transition-property: transform;
+	  transition-property: transform;
+		transition: all .5s ease-in-out;
+	}
+	.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+	  -webkit-transform: scale(1.1);
+	  transform: scale(1.1);
+	}
+
+.tracks img {
+	height:100%;
+	width:100%;
+	left: 0;
+	top: 0;
+	display:block;
+	z-index: -1;
+	opacity:.5;
+	position:absolute;
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.tracks img:hover {
+    opacity: 1.0;
+}
