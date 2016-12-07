@@ -3363,6 +3363,99 @@
 		font-weight:500;
 	}
 
+	@media only screen and (min-width: 1401px) and (max-width: 1660px) {
+		.title {
+			font-family: AfCamberWellone;
+			font-size: 215px;
+			font-weight:500;
+		}
+		.album {
+			margin:0 auto;
+			width:1000px;
+		}
+
+		.tracks .text h2{
+				letter-spacing:1px;
+				padding-top:90px;
+				padding-bottom:90px;
+				color:transparent;
+				font-weight:100;
+				display: table-cell;
+				vertical-align: middle;
+				text-align: left;
+		}
+	}
+
+
+	@media only screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+		.album {
+			margin:0 auto;
+			width:830px;
+		}
+	}
+
+	@media only screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+		.album {
+			margin:0 auto;
+			width:830px;
+		}
+	}
+
+
+	@media only screen and (min-width: 900px) and (max-width: 1400px)  {
+			.title {
+				font-family: AfCamberWellone;
+				font-size: 175px;
+				font-weight:500;
+			}
+
+			.album {
+				margin:0 auto;
+			}
+
+	}
+
+	@media only screen and (min-width: 800px) and (max-width: 899px)  {
+			.title {
+				font-family: AfCamberWellone;
+				font-size: 160px;
+				font-weight:500;
+			}
+
+		}
+
+@media only screen and (min-width: 700px) and (max-width: 799px) {
+		.title {
+			font-family: AfCamberWellone;
+			font-size: 150px;
+			font-weight:500;
+		}
+	}
+
+@media only screen and (min-width: 600px) and (max-width: 699px)  {
+	.title {
+		font-family: AfCamberWellone;
+		font-size: 142px;
+		font-weight:500;
+	}
+}
+
+	@media only screen and (min-width: 500px) and (max-width: 599px)  {
+	.title {
+		font-family: AfCamberWellone;
+		font-size: 120px;
+		font-weight:500;
+	}
+}
+
+	@media only screen and (min-width: 426px) and (max-width: 499px)  {
+	.title {
+		font-family: AfCamberWellone;
+		font-size: 112px;
+		font-weight:500;
+	}
+}
+
 	@media only screen and (max-width: 425px)  {
 	.title {
 		font-family: AfCamberWellone;
