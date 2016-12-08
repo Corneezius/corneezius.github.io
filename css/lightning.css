@@ -1,26 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    background: transparent !important;
-    text-align: center;
-    vertical-align: middle;
-}
-.container{
-    vertical-align: middle;
 }
 
 .event {
-    width: 100%;
+    width: 150px;
     height: 150px;
-    background: #333;
+    background: #666;
     position: relative;
     color: white;
+    display: inline-block;
     margin: 10px;
     text-align: center;
     vertical-align: top;
-    opacity:1;
 
-    z-index: -1;
+    z-index: 1;
 }
 
 .sayan{
@@ -28,66 +22,19 @@ body {
     background: white;
 }
 canvas {
-    position: relative;
-    width: inherit;
-    height: inherit;
-    z-index: -6;
-    opacity: 1;
-}
-
-
-
-.sayan:before{
     position: absolute;
-    color: transparent;
-    font-size: 150px;
-    font-weight: bold;
-    content: '悟'; /* Go Kanji from Goku -> 悟空 */
-    top:0px;
-    bottom:0;
-    left:0px;
-    right:0;
+    top: -15px;
+    left: -15px;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
     opacity: 0.7;
-    z-index: -1;
-
-  animation: animation 0.7s ease-in-out infinite alternate;
-  -webkit-animation: animation 0.7s ease-in-out infinite alternate;
+    padding:15px;
 }
 
-
-@keyframes animation
-{
-0% {text-shadow: 0 0 20px #fefcc9,
-  10px -10px 30px #feec85,
-  -20px -20px 40px #ffae34,
-  20px -40px 50px #ec760c,
-  -20px -60px 60px #cd4606,
-  0 -80px 70px #973716,
-  10px -90px 80px #451b0e;}
-100% {text-shadow: 0 0 20px #fefcc9,
-  10px -10px 30px #fefcc9,
-  -20px -20px 40px #feec85,
-  22px -42px 60px #ffae34,
-  -22px -58px 50px #ec760c,
-  0 -82px 80px #cd4606,
-  10px -90px 80px  #973716;}
-}
-
-
-@-webkit-keyframes animation
-{
-0% {text-shadow: 0 0 20px #fefcc9,
-  10px -10px 30px #feec85,
-  -20px -20px 40px #ffae34,
-  20px -40px 50px #ec760c,
-  -20px -60px 60px #cd4606,
-  0 -80px 70px #973716,
-  10px -90px 80px #451b0e;}
-100% {text-shadow: 0 0 20px #fefcc9,
-  10px -10px 30px #fefcc9,
-  -20px -20px 40px #feec85,
-  22px -42px 60px #ffae34,
-  -22px -58px 50px #ec760c,
-  0 -82px 80px #cd4606,
-  10px -90px 80px  #973716;}
+.container{
+    padding: 15px;
+    background: white;
+    border: 2px solid dodgerBlue;
+    margin: 10px;
 }
