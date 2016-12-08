@@ -3511,7 +3511,36 @@ font-size: 150px;
 font-weight:500;
 }
 
+@media only screen and (min-width: 1661px) and (max-width: 2500px) {
+#header {
+	margin-top:-70px;
+}
+
+
+.title {
+	font-family: AfCamberWellone;
+	font-size: 260px;
+	font-weight:500;
+}
+
+.tracks .text h2{
+		letter-spacing:1px;
+		padding-top:130px;
+		padding-bottom:130px;
+		color:transparent;
+		font-weight:100;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: left;
+}
+}
+
+
+
+
 @media only screen and (min-width: 1401px) and (max-width: 1660px) {
+
+
 .title {
 	font-family: AfCamberWellone;
 	font-size: 215px;
@@ -3530,6 +3559,8 @@ font-weight:500;
 }
 }
 
+
+
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
 	.tracks .text h2{
 			letter-spacing:1px;
@@ -3545,6 +3576,10 @@ font-weight:500;
 
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+	#header {
+		margin-top:-20px;
+	}
+
 	.tracks .text h2{
 			letter-spacing:1px;
 			padding-top:80px;
@@ -3558,6 +3593,10 @@ font-weight:500;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+	#header {
+		margin-top:-20px;
+	}
+
 	.tracks .text h2{
 			letter-spacing:1px;
 			padding-top:80px;
