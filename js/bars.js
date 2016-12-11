@@ -16,6 +16,5 @@ $(document).ready(function() {
 
   setTimeout(function(){
     $(".title").removeClass("black");
-  }, 5075);
-
+  }, 5100);
 });
