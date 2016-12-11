@@ -5,18 +5,18 @@ $(document).ready(function() {
 	setTimeout(function(){
     $('.load-title').removeClass("load-title");
     $('#bars').hide();
-    $('.title').addClass("clear");
+    $('.title').addClass("black");
     $('.bar').hide();
 	}, 4000);
 
     setTimeout(function(){
       $('body').addClass('loaded');
-    }, 5000);
+    }, 4500);
 
 
   setTimeout(function(){
-    $('.title').removeClass("clear");
-  }, 5500);
+    $(".title").removeClass("black");
+  }, 5075);
 
 
 });
