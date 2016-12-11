@@ -18,5 +18,4 @@ $(document).ready(function() {
     $(".title").removeClass("black");
   }, 5075);
 
-
 });
