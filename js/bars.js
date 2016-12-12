@@ -5,16 +5,16 @@ $(document).ready(function() {
 	setTimeout(function(){
     $('.load-title').removeClass("load-title");
     $('#bars').hide();
-    $('.title').addClass("black");
+    $('.title').addClass("clear");
     $('.bar').hide();
-	}, 4000);
+	}, 4500);
 
     setTimeout(function(){
       $('body').addClass('loaded');
-    }, 4500);
+    }, 5000);
 
 
   setTimeout(function(){
-    $(".title").removeClass("black");
-  }, 5100);
+    $(".title").removeClass("clear");
+  }, 5400);
 });

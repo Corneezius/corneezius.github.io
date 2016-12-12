@@ -3394,7 +3394,7 @@
 
 	#getting-started {
 		text-align:center;
-		font-size:20px;
+		font-size:15px;
 	}
 
 	ul#pages li {
@@ -3502,6 +3502,7 @@ font-size: 150px;
 font-weight:500;
 z-index: 1014;
 color:#CF2A07;
+margin-top:-35px;
 
 }
 
@@ -3519,7 +3520,6 @@ color:#CF2A07;
 font-family: AfCamberWellone;
 font-size: 150px;
 font-weight:500;
-z-index: 1014;
 
 }
 
@@ -3700,4 +3700,13 @@ font-weight:500;
 
 .clear {
 	color: transparent;
+}
+
+.collaborators {
+	display:inline;
+	z-index: 1025;
+	font-family: afcamberwellone;
+	font-size:20px;
+	font-weight: 100;
+	color:red;
 }
