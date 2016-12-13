@@ -8,7 +8,7 @@
     z-index:1012;
 }
 
-.bar {
+    .bar {
    background: #CF2A07;
     bottom: 1px;
     height: 3px;
@@ -16,6 +16,20 @@
     width: 3px;
     animation: sound 0ms -800ms linear infinite alternate;
     z-index:1012;
+}
+
+#name {
+  top:70%;
+  z-index:1015;
+  color:#e5e5e5;
+  position:absolute;
+  font-family:afcamberwellone;
+  text-align:center;
+  width:100%;
+  margin:0 auto;
+  font-size:.8em;
+  text-transform: uppercase;
+
 }
 
 @keyframes sound {

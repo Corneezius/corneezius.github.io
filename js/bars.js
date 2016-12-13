@@ -7,6 +7,7 @@ $(document).ready(function() {
     $('#bars').hide();
     $('.title').addClass("clear");
     $('.bar').hide();
+    $('#name').hide();
 	}, 4500);
 
     setTimeout(function(){

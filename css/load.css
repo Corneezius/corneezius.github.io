@@ -61,6 +61,10 @@ h1 {
     z-index: 1001;
 }
 
+#artist {
+  
+}
+
     #loader:before {
         content: "";
         position: absolute;
