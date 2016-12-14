@@ -17,5 +17,6 @@ $(document).ready(function() {
 
   setTimeout(function(){
     $(".title").removeClass("clear");
+		$('body').removeClass("noscroll");
   }, 5400);
 });

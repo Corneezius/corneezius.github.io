@@ -1,7 +1,14 @@
+
+
+
+.noscroll {
+  overflow:hidden;
+}
+
 #bars {
     height: 30px;
     left: 50%;
-    margin: 10px 0 0 -20px;
+    margin: 20px 0 0 -20px;
     position: absolute;
     top: 60%;
     width: 40px;
@@ -31,10 +38,134 @@
   font-size:1em;
   text-transform: uppercase;
   font-weight:100;
-  margin-top:20px;
+  margin-top:30px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 736px) {
+
+  #bars {
+      height: 30px;
+      left: 50%;
+      margin: -30px 0 0 -20px;
+      position: absolute;
+      top: 60%;
+      width: 40px;
+      z-index:1012;
+  }
+
+      .bar {
+     background: #CF2A07;
+      bottom: 1px;
+      height: 3px;
+      position: absolute;
+      width: 3px;
+      animation: sound 0ms -800ms linear infinite alternate;
+      z-index:1012;
+
+  }
+
+  #name {
+    top:70%;
+    z-index:1015;
+    color:#e5e5e5;
+    position:absolute;
+    font-family:afcamberwellone;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    font-size:1em;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top:-30px;
+  }
 
 
 }
+
+
+
+
+
+@media only screen and (min-width: 425px) and (max-width: 599px) {
+
+  #bars {
+      height: 30px;
+      left: 50%;
+      margin: -60px 0 0 -20px;
+      position: absolute;
+      top: 60%;
+      width: 40px;
+      z-index:1012;
+  }
+
+      .bar {
+     background: #CF2A07;
+      bottom: 1px;
+      height: 3px;
+      position: absolute;
+      width: 3px;
+      animation: sound 0ms -800ms linear infinite alternate;
+      z-index:1012;
+
+  }
+
+  #name {
+    top:70%;
+    z-index:1015;
+    color:#e5e5e5;
+    position:absolute;
+    font-family:afcamberwellone;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    font-size:1em;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top:-60px;
+  }
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+
+  #bars {
+      height: 30px;
+      left: 50%;
+      margin: -100px 0 0 -20px;
+      position: absolute;
+      top: 60%;
+      width: 40px;
+      z-index:1012;
+  }
+
+      .bar {
+     background: #CF2A07;
+      bottom: 1px;
+      height: 3px;
+      position: absolute;
+      width: 3px;
+      animation: sound 0ms -800ms linear infinite alternate;
+      z-index:1012;
+
+  }
+
+  #name {
+    top:70%;
+    z-index:1015;
+    color:#e5e5e5;
+    position:absolute;
+    font-family:afcamberwellone;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    font-size:1em;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top:-80px;
+  }
+}
+
 
 @keyframes sound {
     0% {
@@ -67,6 +198,7 @@
     width: 100%;
     height: 100%;
     z-index: 1000;
+
 
 }
 
