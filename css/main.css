@@ -3604,7 +3604,7 @@ font-weight:500;
 	}
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 900px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
 	#header {
 		margin-top:-20px;
 	}
@@ -3631,6 +3631,26 @@ font-weight:500;
 
 	.album {
 		margin:0 auto;
+	}
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px)  {
+	.title {
+		font-family: AfCamberWellone;
+		font-size: 160px;
+		font-weight:500;
+	}
+
+	.tracks .text h2{
+			letter-spacing:1px;
+			padding-top:60px;
+			padding-bottom:60px;
+			color:transparent;
+			font-weight:100;
+			display: table-cell;
+			vertical-align: middle;
+			text-align: left;
 	}
 
 }

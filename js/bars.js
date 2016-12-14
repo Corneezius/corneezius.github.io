@@ -1,7 +1,7 @@
 
 //
 $(document).ready(function() {
-
+	$(this).scrollTop(0);
 	setTimeout(function(){
     $('.load-title').removeClass("load-title");
     $('#bars').hide();
