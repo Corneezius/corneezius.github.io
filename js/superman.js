@@ -16,6 +16,7 @@ $(document).ready(function() {
 
 	setTimeout(function(){
     $( 'body' ).removeClass( '.superman' );
+		$('body').addClass('loaded');
 		$('.body').hide();
     $('.base').hide();
     $('.face').hide();

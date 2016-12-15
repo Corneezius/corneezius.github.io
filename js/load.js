@@ -13,7 +13,7 @@ Enjoy responsibly!
 */
 
 $(document).ready(function() {
-
+	window.scrollTo(0,0);
 	setTimeout(function(){
 		$('body').addClass('loaded');
 		$('h1').hide();
