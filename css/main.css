@@ -3739,3 +3739,10 @@ font-weight:500;
 #two {
     display:none;
 }
+
+.social {
+	display:inline-block;
+	width:100%;
+	margin:0 auto;
+	margin-top:20px;
+}
