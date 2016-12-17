@@ -3741,5 +3741,7 @@ font-weight:500;
 }
 
 .social {
-	margin-top:20px;
+	margin-top:25px;
+	width:100%;
+	margin:0 auto;
 }
