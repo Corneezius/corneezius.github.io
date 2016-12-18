@@ -3740,6 +3740,11 @@ font-weight:500;
     display:none;
 }
 
+.addthis_inline_share_toolbox_9j6z {
+	margin-top:50px;
+}
+
+
 .social {
 	margin-top:25px;
 	width:70%;
@@ -3749,8 +3754,9 @@ font-weight:500;
 
 @media only screen and (min-width: 768px) and (max-width: 2560px) {
 .social {
-	margin-top:25px;
 	width:30%;
 	margin:0 auto;
 }
+
+
 }
