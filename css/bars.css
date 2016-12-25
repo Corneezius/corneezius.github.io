@@ -39,12 +39,12 @@
   margin-top:30px;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 736px) {
+@media only screen and (min-width: 800px) and (max-width: 899px) {
 
   #bars {
       height: 30px;
       left: 50%;
-      margin: -30px 0 0 -20px;
+      margin: 80px 0 0 -20px;
       position: absolute;
       top: 60%;
       width: 40px;
@@ -61,6 +61,166 @@
       z-index:1012;
 
   }
+
+  #name {
+    top:70%;
+    z-index:1015;
+    color:#e5e5e5;
+    position:relative;
+    font-family:afcamberwellone;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    font-size:1em;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top:85px;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 737px) and (max-width: 799px) {
+
+  #bars {
+      height: 30px;
+      left: 50%;
+      margin: 60px 0 0 -20px;
+      position: absolute;
+      top: 60%;
+      width: 40px;
+      z-index:1012;
+  }
+
+      .bar {
+     background: #CF2A07;
+      bottom: 1px;
+      height: 3px;
+      position: absolute;
+      width: 3px;
+      animation: sound 0ms -800ms linear infinite alternate;
+      z-index:1012;
+
+  }
+
+  #name {
+    top:70%;
+    z-index:1015;
+    color:#e5e5e5;
+    position:relative;
+    font-family:afcamberwellone;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    font-size:1em;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top:60px;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 736px) {
+
+  #bars {
+      height: 30px;
+      left: 50%;
+      margin: -1px 0 0 -20px;
+      position: absolute;
+      top: 60%;
+      width: 40px;
+      z-index:1012;
+  }
+
+      .bar {
+     background: #CF2A07;
+      bottom: 1px;
+      height: 3px;
+      position: absolute;
+      width: 3px;
+      animation: sound 0ms -800ms linear infinite alternate;
+      z-index:1012;
+
+  }
+
+  #name {
+    top:70%;
+    z-index:1015;
+    color:#e5e5e5;
+    position:relative;
+    font-family:afcamberwellone;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    font-size:1em;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top:-5px;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+
+  #bars {
+      height: 30px;
+      left: 50%;
+      margin: -35px 0 0 -20px;
+      position: absolute;
+      top: 60%;
+      width: 40px;
+      z-index:1012;
+  }
+
+
+  #name {
+    top:70%;
+    z-index:1015;
+    color:#e5e5e5;
+    position:relative;
+    font-family:afcamberwellone;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    font-size:1em;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top:-30px;
+  }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 426px) and (max-width: 499px) {
+
+  #bars {
+      height: 30px;
+      left: 50%;
+      margin: -40px 0 0 -20px;
+      position: absolute;
+      top: 60%;
+      width: 40px;
+      z-index:1012;
+  }
+
 
   #name {
     top:70%;
@@ -80,38 +240,24 @@
 
 }
 
-
-
-
-
-@media only screen and (min-width: 425px) and (max-width: 599px) {
+@media only screen and (min-width: 375px) and (max-width: 425px) {
 
   #bars {
       height: 30px;
       left: 50%;
-      margin: -60px 0 0 -20px;
+      margin: -80px 0 0 -20px;
       position: absolute;
       top: 60%;
       width: 40px;
       z-index:1012;
   }
 
-      .bar {
-     background: #CF2A07;
-      bottom: 1px;
-      height: 3px;
-      position: absolute;
-      width: 3px;
-      animation: sound 0ms -800ms linear infinite alternate;
-      z-index:1012;
-
-  }
 
   #name {
     top:70%;
     z-index:1015;
     color:#e5e5e5;
-    position:absolute;
+    position:relative;
     font-family:afcamberwellone;
     text-align:center;
     width:100%;
@@ -119,40 +265,28 @@
     font-size:1em;
     text-transform: uppercase;
     font-weight:100;
-    margin-top:-60px;
+    margin-top:-80px;
   }
-
-
 }
 
-@media only screen and (min-width: 320px) and (max-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 374px) {
 
   #bars {
       height: 30px;
       left: 50%;
-      margin: -100px 0 0 -20px;
+      margin: -90px 0 0 -20px;
       position: absolute;
       top: 60%;
       width: 40px;
       z-index:1012;
   }
 
-      .bar {
-     background: #CF2A07;
-      bottom: 1px;
-      height: 3px;
-      position: absolute;
-      width: 3px;
-      animation: sound 0ms -800ms linear infinite alternate;
-      z-index:1012;
-
-  }
 
   #name {
     top:70%;
     z-index:1015;
     color:#e5e5e5;
-    position:absolute;
+    position:relative;
     font-family:afcamberwellone;
     text-align:center;
     width:100%;

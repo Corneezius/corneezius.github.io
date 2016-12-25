@@ -3732,13 +3732,7 @@ font-weight:500;
 	color:red;
 }
 
-#container{
-    position: absolute;
-}
 
-#two {
-    display:none;
-}
 
 .addthis_inline_share_toolbox_9j6z {
 	margin-top:50px;
@@ -3759,4 +3753,12 @@ font-weight:500;
 }
 
 
+}
+
+.ducks {
+	  background: url(images/corneezius1.jpg) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 }
