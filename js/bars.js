@@ -2,8 +2,6 @@
 $(document).ready(function() {
 	  $('.load-title').hide();
 		$('#name').hide(0).fadeIn(1000);
-		$('#bars').hide();
-		$('#credit').hide();
 
 	setTimeout(function(){
 		$('#name').fadeOut(1000);
