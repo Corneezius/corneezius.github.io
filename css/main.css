@@ -3769,14 +3769,14 @@ display:none;
 
 @media only screen and (min-width: 1023px) and (max-width: 1439px) {
 .social {
-	width:30%;
+	width:20%;
 	margin:0 auto;
 }
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1900px) {
 .social {
-	width:30%;
+	width:15%;
 	margin:0 auto;
 }
 }
