@@ -3503,6 +3503,7 @@ font-weight:500;
 z-index: 1014;
 color:#CF2A07;
 margin-bottom: 10px;
+display:none;
 
 }
 
@@ -3520,6 +3521,7 @@ margin-bottom: 10px;
 font-family: AfCamberWellone;
 font-size: 150px;
 font-weight:500;
+display:none;
 
 
 }
@@ -3534,6 +3536,7 @@ font-weight:500;
 	font-family: AfCamberWellone;
 	font-size: 260px;
 	font-weight:500;
+	display:none;
 }
 
 .tracks .text h2{
@@ -3558,6 +3561,7 @@ font-weight:500;
 	font-family: AfCamberWellone;
 	font-size: 215px;
 	font-weight:500;
+	display:none;
 }
 
 .tracks .text h2{
@@ -3628,6 +3632,7 @@ font-weight:500;
 		font-family: AfCamberWellone;
 		font-size: 175px;
 		font-weight:500;
+		display:none;
 	}
 
 	.album {
@@ -3641,6 +3646,7 @@ font-weight:500;
 		font-family: AfCamberWellone;
 		font-size: 160px;
 		font-weight:500;
+		display:none;
 	}
 
 	.tracks .text h2{
@@ -3661,6 +3667,7 @@ font-weight:500;
 		font-family: AfCamberWellone;
 		font-size: 160px;
 		font-weight:500;
+		display:none;
 	}
 
 }
@@ -3670,6 +3677,7 @@ font-weight:500;
 	font-family: AfCamberWellone;
 	font-size: 150px;
 	font-weight:500;
+	display:none;
 }
 }
 
@@ -3678,6 +3686,7 @@ font-weight:500;
 font-family: AfCamberWellone;
 font-size: 142px;
 font-weight:500;
+display:none;
 }
 }
 
@@ -3686,6 +3695,7 @@ font-weight:500;
 font-family: AfCamberWellone;
 font-size: 120px;
 font-weight:500;
+display:none;
 }
 }
 
@@ -3694,6 +3704,7 @@ font-weight:500;
 font-family: AfCamberWellone;
 font-size: 112px;
 font-weight:500;
+display:none;
 }
 }
 
@@ -3702,6 +3713,7 @@ font-weight:500;
 font-family: AfCamberWellone;
 font-size: 82px;
 font-weight:500;
+display:none;
 }
 }
 @media only screen and (max-width: 330px)  {
@@ -3709,6 +3721,7 @@ font-weight:500;
 	font-family: AfCamberWellone;
 	font-size: 72px;
 	font-weight:500;
+	display:none;
 }
 }
 
