@@ -25,6 +25,21 @@
 }
 
 #name {
+  top:50%;
+  z-index:1015;
+  color:#e5e5e5;
+  position:absolute;
+  font-family:afcamberwellone;
+  text-align:center;
+  width:100%;
+  margin:0 auto;
+  font-size:2em;
+  text-transform: uppercase;
+  font-weight:100;
+  margin-top:0;
+}
+
+#credit {
   top:70%;
   z-index:1015;
   color:#e5e5e5;
@@ -37,6 +52,7 @@
   text-transform: uppercase;
   font-weight:100;
   margin-top:30px;
+  letter-spacing:1px;
 }
 
 @media only screen and (min-width: 800px) and (max-width: 899px) {
@@ -63,10 +79,25 @@
   }
 
   #name {
-    top:70%;
+    top:50%;
     z-index:1015;
     color:#e5e5e5;
     position:relative;
+    font-family:afcamberwellone;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    font-size:2em;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top:85px;
+  }
+
+  #credit {
+    top:70%;
+    z-index:1015;
+    color:#e5e5e5;
+    position:absolute;
     font-family:afcamberwellone;
     text-align:center;
     width:100%;
@@ -75,6 +106,7 @@
     text-transform: uppercase;
     font-weight:100;
     margin-top:85px;
+    letter-spacing:1px;
   }
 
 }
@@ -110,10 +142,25 @@
   }
 
   #name {
-    top:70%;
+    top:50%;
     z-index:1015;
     color:#e5e5e5;
     position:relative;
+    font-family:afcamberwellone;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    font-size:2em;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top:60px;
+  }
+
+  #credit {
+    top:70%;
+    z-index:1015;
+    color:#e5e5e5;
+    position:absolute;
     font-family:afcamberwellone;
     text-align:center;
     width:100%;
@@ -122,6 +169,7 @@
     text-transform: uppercase;
     font-weight:100;
     margin-top:60px;
+    letter-spacing:1px;
   }
 
 }
@@ -157,10 +205,25 @@
   }
 
   #name {
-    top:70%;
+    top:50%;
     z-index:1015;
     color:#e5e5e5;
     position:relative;
+    font-family:afcamberwellone;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    font-size:2em;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top:-5px;
+  }
+
+  #credit {
+    top:70%;
+    z-index:1015;
+    color:#e5e5e5;
+    position:absolute;
     font-family:afcamberwellone;
     text-align:center;
     width:100%;
@@ -169,6 +232,7 @@
     text-transform: uppercase;
     font-weight:100;
     margin-top:-5px;
+    letter-spacing:1px;
   }
 
 
@@ -189,10 +253,25 @@
 
 
   #name {
-    top:70%;
+    top:50%;
     z-index:1015;
     color:#e5e5e5;
     position:relative;
+    font-family:afcamberwellone;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    font-size:2em;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top:-30px;
+  }
+
+  #credit {
+    top:70%;
+    z-index:1015;
+    color:#e5e5e5;
+    position:absolute;
     font-family:afcamberwellone;
     text-align:center;
     width:100%;
@@ -201,6 +280,7 @@
     text-transform: uppercase;
     font-weight:100;
     margin-top:-30px;
+    letter-spacing:1px;
   }
 }
 
@@ -223,6 +303,21 @@
 
 
   #name {
+    top:50%;
+    z-index:1015;
+    color:#e5e5e5;
+    position:absolute;
+    font-family:afcamberwellone;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    font-size:1em;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top:-30px;
+  }
+
+  #credit {
     top:70%;
     z-index:1015;
     color:#e5e5e5;
@@ -235,6 +330,7 @@
     text-transform: uppercase;
     font-weight:100;
     margin-top:-30px;
+    letter-spacing:1px;
   }
 
 
@@ -254,7 +350,7 @@
 
 
   #name {
-    top:70%;
+    top:50%;
     z-index:1015;
     color:#e5e5e5;
     position:relative;
@@ -266,6 +362,22 @@
     text-transform: uppercase;
     font-weight:100;
     margin-top:-80px;
+  }
+
+  #credit {
+    top:70%;
+    z-index:1015;
+    color:#e5e5e5;
+    position:absolute;
+    font-family:afcamberwellone;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    font-size:1em;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top:-80px;
+    letter-spacing:1px;
   }
 }
 
@@ -283,7 +395,7 @@
 
 
   #name {
-    top:70%;
+    top:50%;
     z-index:1015;
     color:#e5e5e5;
     position:relative;
@@ -294,8 +406,25 @@
     font-size:1em;
     text-transform: uppercase;
     font-weight:100;
+  }
+
+  #credit {
+    top:70%;
+    z-index:1015;
+    color:#e5e5e5;
+    position:absolute;
+    font-family:afcamberwellone;
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    font-size:1em;
+    text-transform: uppercase;
+    font-weight:100;
+    margin-top:30px;
+    letter-spacing:1px;
     margin-top:-80px;
   }
+
 }
 
 

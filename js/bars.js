@@ -1,22 +1,36 @@
-
 //
 $(document).ready(function() {
-	$(this).scrollTop(0);
+	  $('.load-title').hide();
+		$('#name').hide(0).fadeIn(1000);
+		$('#bars').hide();
+		$('#credit').hide();
+
 	setTimeout(function(){
-    $('.load-title').removeClass("load-title");
-    $('#bars').hide();
-    $('.title').addClass("clear");
-    $('.bar').hide();
-    $('#name').hide();
-	}, 4500);
+		$('#name').fadeOut(1000);
+	}, 1500);
+	//
+	setTimeout(function(){
+		$('.load-title').show();
+		$('#credit').show();
+
+		$('#bars').show();
+	}, 3000);
 
     setTimeout(function(){
-      $('body').addClass('loaded');
-    }, 5000);
+      // $('body').addClass('loaded');
+			$('.load-title').removeClass("load-title");
+			$('#credit').hide();
+			$('#bars').hide();
+			// $('.title').removeClass("clear");
+			// $('body').removeClass("noscroll");
+    }, 6000);
+
+		  setTimeout(function(){
+				  $('body').addClass('loaded');
+					$('body').removeClass("noscroll");
+				}, 6400);
 
 
-  setTimeout(function(){
-    $(".title").removeClass("clear");
-		$('body').removeClass("noscroll");
-  }, 5400);
+
+
 });
