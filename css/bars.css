@@ -30,15 +30,15 @@
   z-index:1015;
   color:#e5e5e5;
   position:absolute;
-  font-family:afcamberwellone;
+  font-family:'Gloria Hallelujah', cursive;
   text-align:center;
   width:100%;
   margin:0 auto;
   font-size:2em;
   text-transform: uppercase;
-  font-weight:100;
+  font-weight:700;
   margin-top:0;
-  letter-spacing:1px;
+  letter-spacing:5px;
 
 }
 
@@ -88,16 +88,16 @@
     z-index:1015;
     color:#e5e5e5;
     position:relative;
-    font-family:afcamberwellone;
+    font-family:'Gloria Hallelujah', cursive;
     text-align:center;
     width:100%;
     margin:0 auto;
     font-size:2em;
     text-transform: uppercase;
-    font-weight:100;
+    font-weight:700;
     margin-top:85px;
     display: none;
-    letter-spacing:1px;
+    letter-spacing:5px;
 
   }
 
@@ -155,15 +155,15 @@
     z-index:1015;
     color:#e5e5e5;
     position:relative;
-    font-family:afcamberwellone;
+    font-family:'Gloria Hallelujah', cursive;
     text-align:center;
     width:100%;
     margin:0 auto;
     font-size:2em;
     text-transform: uppercase;
-    font-weight:100;
+    font-weight:700;
     margin-top:60px;
-    letter-spacing:1px;
+    letter-spacing:5px;
 
   }
 
@@ -221,15 +221,15 @@
     z-index:1015;
     color:#e5e5e5;
     position:relative;
-    font-family:afcamberwellone;
+    font-family:'Gloria Hallelujah', cursive;
     text-align:center;
     width:100%;
     margin:0 auto;
     font-size:2em;
     text-transform: uppercase;
-    font-weight:100;
+    font-weight:700;
     margin-top:-5px;
-    letter-spacing:1px;
+    letter-spacing:5px;
 
   }
 
@@ -272,15 +272,15 @@
     z-index:1015;
     color:#e5e5e5;
     position:relative;
-    font-family:afcamberwellone;
+    font-family:'Gloria Hallelujah', cursive;
     text-align:center;
     width:100%;
     margin:0 auto;
     font-size:2em;
     text-transform: uppercase;
-    font-weight:100;
+    font-weight:700;
     margin-top:-30px;
-    letter-spacing:1px;
+    letter-spacing:5px;
 
   }
 
@@ -325,15 +325,15 @@
     z-index:1015;
     color:#e5e5e5;
     position:absolute;
-    font-family:afcamberwellone;
+    font-family:'Gloria Hallelujah', cursive;
     text-align:center;
     width:100%;
     margin:0 auto;
     font-size:1em;
     text-transform: uppercase;
-    font-weight:100;
+    font-weight:700;
     margin-top:-30px;
-    letter-spacing:1px;
+    letter-spacing:5px;
 
   }
 
@@ -375,15 +375,15 @@
     z-index:1015;
     color:#e5e5e5;
     position:relative;
-    font-family:afcamberwellone;
+    font-family:'Gloria Hallelujah', cursive;
     text-align:center;
     width:100%;
     margin:0 auto;
     font-size:1em;
     text-transform: uppercase;
-    font-weight:100;
+    font-weight:700;
     margin-top:-80px;
-    letter-spacing:1px;
+    letter-spacing:5px;
 
   }
 
@@ -424,14 +424,14 @@
     z-index:1015;
     color:#e5e5e5;
     position:relative;
-    font-family:afcamberwellone;
+    font-family:'Gloria Hallelujah', cursive;
     text-align:center;
     width:100%;
     margin:0 auto;
     font-size:1em;
     text-transform: uppercase;
-    font-weight:100;
-    letter-spacing:1px;
+    font-weight:700;
+    letter-spacing:5px;
 
   }
 
