@@ -3762,6 +3762,7 @@ display:none;
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 .social {
 	width:30%;
+	margin-top:50px;
 	margin:0 auto;
 }
 }
@@ -3770,6 +3771,7 @@ display:none;
 @media only screen and (min-width: 1023px) and (max-width: 1439px) {
 .social {
 	width:20%;
+	margin-top:40px;
 	margin:0 auto;
 }
 }
@@ -3777,6 +3779,7 @@ display:none;
 @media only screen and (min-width: 1440px) and (max-width: 1900px) {
 .social {
 	width:15%;
+	margin-top:40px;
 	margin:0 auto;
 }
 }
@@ -3784,6 +3787,7 @@ display:none;
 @media only screen and (min-width: 1901px) and (max-width: 2560px) {
 .social {
 	width:30%;
+	margin-top:50px;
 	margin:0 auto;
 }
 }
@@ -3796,11 +3800,4 @@ display:none;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-}
-
-
-.likebtn-wrapper {
-	display:inline-block;
-	width: 80%;
-	margin:0 auto;
 }
