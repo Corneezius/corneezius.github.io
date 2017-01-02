@@ -3797,3 +3797,11 @@ display:none;
 	  -o-background-size: cover;
 	  background-size: cover;
 }
+
+.likebtn-wrapper {
+	display:inline-block;
+}
+
+.addthis_inline_share_toolbox_9j6z {
+	display:inline-block;
+}
