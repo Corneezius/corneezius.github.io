@@ -3753,7 +3753,7 @@ display:none;
 
 
 .social {
-	margin-top:40px;
+	margin-top:4px;
 	width:70%;
 	margin:0 auto;
 }
@@ -3800,4 +3800,8 @@ display:none;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+}
+
+.likebtn-wrapper {
+	margin-top:40px;
 }
