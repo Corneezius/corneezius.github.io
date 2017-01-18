@@ -3805,3 +3805,13 @@ display:none;
 .likebtn-wrapper {
 	margin-top:40px;
 }
+
+
+.started {
+	font-family: 'Rock Salt', cursive;
+	color:#e5e5e5;
+}
+
+.production {
+	color:transparent;
+}
