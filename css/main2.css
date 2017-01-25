@@ -3816,3 +3816,67 @@ display:none;
 .production {
 	color:transparent;
 }
+
+header {
+  background: url('images/fam.png') no-repeat center center fixed;;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: right;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+  width: 100vh;
+	height:100vh;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.poems {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.poems h3 {
+  font-size:20px;
+  font-family:'Raleway', serif;
+  line-height: 1.5;
+  text-transform:none;
+  font-weight:100;
+}
+
+section {
+	padding:100px 0;
+}
+
+section h2.section-heading {
+  font-size: 27px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.container {
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+line-height: 1.42857143;
+color: #333;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
