@@ -229,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
 /*-- Mobile first--*/
 
 header {
-  background: url(images/fam.png) no-repeat center center fixed;
+  background: url(images/Fam.png) no-repeat center center fixed;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: 60%;
@@ -376,7 +376,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   header {
-    background-image: url('images/fam.png');
+    background-image: url('images/Fam.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
