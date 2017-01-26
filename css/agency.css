@@ -257,26 +257,27 @@ header {
   color: white;
   width: 100%;
 }
+}
 header .intro-text {
-  padding-top: 100px;
+  padding-top: 215px;
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family: 'UnifrakturMaguntia', cursive;
-  font-size: 24px;
-  line-height: 22px;
-  margin-bottom: 25px;
+  font-family: 'Gloria Hallelujah',cursive;
+  padding-top: 65px;
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: "Gloria Hallelujah",cursive;
+  font-size: 28px;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-  margin-bottom: 25px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
-}
+
 
 section {
   padding: 100px 0;
