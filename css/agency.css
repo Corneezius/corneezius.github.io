@@ -279,6 +279,8 @@ section h2.section-heading {
   font-size: 27px;
   margin-top: 0;
   margin-bottom: 15px;
+  padding-top: 75px;
+  margin-top: -75px;
 }
 section h3.section-subheading {
   font-size: 16px;
@@ -395,7 +397,7 @@ section h3.section-subheading {
   }
 
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 193px;
     padding-bottom: 200px;
   }
   /*header .chapter {
@@ -407,6 +409,7 @@ section h3.section-subheading {
     font-size: 40px;
     line-height: 62px;
     margin-bottom: 25px;
+    padding-top: 75px;
   }
   header .intro-text .intro-heading {
     font-family: "Gloria Hallelujah","Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -435,7 +438,7 @@ section h3.section-subheading {
 
 @media (min-width: 1024px) {
   header .intro-text {
-    padding-top: 300px;
+    /*padding-top: 300px;*/
     padding-bottom: 200px;
   }
   footer {
