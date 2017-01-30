@@ -317,7 +317,7 @@ section h3.section-subheading {
   }
 
   header .intro-text {
-    padding-top: 154px;
+    padding-top: 171px;
     padding-bottom: 50px;
   }
 
@@ -512,7 +512,7 @@ section h3.section-subheading {
 
 @media (min-width: 1200px) {
   header .intro-text {
-    padding-top: 210px;
+    padding-top: 225px;
     padding-bottom: 200px;
   }
 

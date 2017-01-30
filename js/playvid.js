@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $("#push").click(function(){
+        $('html, body').animate({ scrollTop: 0 }, 0);
         $('#bgvid').show();
         $('.navbar-custom').css('background-color','black');
         $('header').css('background','black');
