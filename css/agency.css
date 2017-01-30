@@ -331,7 +331,7 @@ section h3.section-subheading {
   header .intro-text .intro-heading {
     /*font-family: "Gloria Hallelujah",cursive;*/
     text-transform: uppercase;
-    /*font-weight: 700;*/
+    font-weight: 100;
     font-size: 31px;
     line-height: 0px;
     margin-bottom: 50px;
@@ -512,7 +512,7 @@ section h3.section-subheading {
 
 @media (min-width: 1200px) {
   header .intro-text {
-    padding-top: 225px;
+    padding-top: 256px;
     padding-bottom: 200px;
   }
 
