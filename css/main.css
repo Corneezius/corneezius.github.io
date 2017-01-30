@@ -3446,6 +3446,47 @@
 	 		vertical-align: middle;
 			text-align: left;
 	}
+.started {
+	font-family: 'afcamberwellone', cursive;
+	color: #e5e5e5;
+	font-size: 1.1em;
+}
+
+@media (min-width: 375px) {
+	.tracks .text h2{
+		padding-left:25px;
+	}
+}
+
+@media (min-width: 425px) {
+	.tracks .text h2{
+		padding-left:50px;
+	}
+}
+
+@media (min-width: 768px) {
+	.started {
+		font-size:1.8em;
+	}
+}
+
+@media (min-width: 1024px) {
+	.started {
+		font-size:2em;
+	}
+}
+
+@media (min-width: 1200px) {
+	.started {
+		font-size:2em;
+	}
+}
+
+@media (min-width: 1440px) {
+	.started {
+		font-size:2em;
+	}
+}
 
 
 
@@ -3606,6 +3647,8 @@ display:none;
 			display: table-cell;
 			vertical-align: middle;
 			text-align: left;
+
+
 	}
 }
 
@@ -3807,12 +3850,78 @@ display:none;
 }
 
 
-.started {
-	font-family: 'afcamberwellone', cursive;
-	color:#e5e5e5;
-	font-size:1.1em;
-}
-
 .production {
 	color:transparent;
+}
+
+.tracks .text h2{
+		letter-spacing:1px;
+		padding-top:40px;
+		padding-bottom:40px;
+		/*color:transparent;*/
+		font-weight:100;
+		display: table-cell;
+		vertical-align: middle;
+		text-align: left;
+}
+.started {
+font-family: 'afcamberwellone', cursive;
+color: #e5e5e5;
+font-size: 1.1em;
+}
+
+@media (min-width: 375px) {
+.tracks .text h2{
+	padding-left:25px;
+}
+}
+
+@media (min-width: 425px) {
+.tracks .text h2{
+	padding-left:50px;
+}
+}
+
+@media (min-width: 768px) {
+.started {
+	font-size:1.8em;
+}
+
+.tracks .text h2{
+	padding-left:50px;
+}
+
+}
+
+@media (min-width: 1024px) {
+.started {
+	font-size:2em;
+}
+
+.tracks .text h2{
+	padding-left:246px;
+}
+
+}
+
+@media (min-width: 1200px) {
+.started {
+	font-size:2em;
+}
+
+.tracks .text h2{
+	padding-left:277px;
+}
+
+}
+
+@media (min-width: 1440px) {
+.started {
+	font-size:2em;
+}
+
+.tracks .text h2{
+	padding-left:355px;
+}
+
 }
