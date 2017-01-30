@@ -229,7 +229,7 @@ fieldset[disabled] .btn-xl.active {
 /*-- Mobile first--*/
 
 header {
-  background: url(images/Fam.png) no-repeat center center fixed;
+  background: url(images/fam3.png) no-repeat center center fixed;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: 60%;
@@ -243,6 +243,27 @@ header {
   height: 80vh;
 }
 
+.btn-toggle a, .button-press{
+  background-image: url(images/pic11.jpg);
+  display: block;
+  width: 100%;
+  color: white;
+  height: 40px;
+  font-family: "Montserrat";
+  text-align: left;
+  font-size: .9em;
+  font-weight: 700;
+  height: 80px;
+  padding-top: 20px;
+  padding-left: 105px;
+  border-radius: 2px;
+  margin-bottom: 0;
+  z-index: 1030;
+  cursor: pointer;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
 header .intro-text .intro-lead-in {
   font-family: 'Gloria Hallelujah',cursive;
   padding-top: 100px;
@@ -252,21 +273,14 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text {
-  padding-top: 213px;
+  padding-top: 189px;
   padding-bottom: 50px;
 }
 
-header .intro-text .intro-lead-in {
-  font-family: 'Gloria Hallelujah',cursive;
-  padding-top: 100px;
-  font-size: 17px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
 
 header .intro-text .intro-heading {
-  font-family: "Gloria Hallelujah",cursive;
-  font-size: 28px;
+  font-family: 'futura_md_btmedium';
+  font-size: 27px;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
@@ -282,6 +296,11 @@ section h2.section-heading {
   padding-top: 75px;
   margin-top: -75px;
 }
+
+.short-poem {
+  padding-top: 130px;
+  margin-top: -130px;
+}
 section h3.section-subheading {
   font-size: 16px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -292,14 +311,13 @@ section h3.section-subheading {
 }
 
 @media (min-width: 375px) {
-  /*header .chapter {
-    font-family: 'UnifrakturMaguntia', cursive;
-    font-size: 40px;
-  }*/
 
+  .btn-toggle a, .button-press{
+    padding-left: 130px;
+  }
 
   header .intro-text {
-    padding-top: 164px;
+    padding-top: 154px;
     padding-bottom: 50px;
   }
 
@@ -311,9 +329,9 @@ section h3.section-subheading {
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Gloria Hallelujah",cursive;
+    /*font-family: "Gloria Hallelujah",cursive;*/
     text-transform: uppercase;
-    font-weight: 700;
+    /*font-weight: 700;*/
     font-size: 31px;
     line-height: 0px;
     margin-bottom: 50px;
@@ -326,13 +344,18 @@ section h3.section-subheading {
     font-family: 'UnifrakturMaguntia', cursive;
     font-size: 40px;
   }*/
+
+  .btn-toggle a, .button-press{
+    padding-left: 150px;
+  }
+
   header {
     background-position: 75%;
     height: 92vh;
   }
 
   header .intro-text {
-    padding-top: 211px;
+    padding-top: 183px;
     padding-bottom: 50px;
   }
 
@@ -343,13 +366,14 @@ section h3.section-subheading {
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Gloria Hallelujah",cursive;
+    /*font-family: "Gloria Hallelujah",cursive;*/
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 30px;
+    /*font-weight: 700;*/
+    font-size: 32px;
     line-height: 0px;
     margin-bottom: 50px;
     margin-top:40px;
+    letter-spacing:5px;
   }
 
 }
@@ -359,6 +383,9 @@ section h3.section-subheading {
     font-family: 'UnifrakturMaguntia', cursive;
     font-size: 40px;
   }*/
+  .btn-toggle a, .button-press{
+    padding-left: 196px;
+  }
   header .intro-text .intro-lead-in {
     font-family: "Gloria Hallelujah",cursive;
     font-size: 30px;
@@ -366,10 +393,10 @@ section h3.section-subheading {
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Gloria Hallelujah",cursive;
+    /*font-family: "Gloria Hallelujah",cursive;*/
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 44px;
+    /*font-weight: 700;*/
+    font-size: 43px;
     line-height: 0px;
     margin-bottom: 50px;
     margin-top:40px;
@@ -378,7 +405,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   header {
-    background-image: url('images/Fam.png');
+    background-image: url('images/fam3.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -390,6 +417,35 @@ section h3.section-subheading {
     color: white;
     width: 100%;
     height:100vh;
+  }
+
+  .btn-toggle{
+    position:fixed;
+    bottom:0;
+    right:0;
+    z-index:1020;
+  }
+
+  .btn-toggle a, .button-press{
+    background-image: url(images/pic11.jpg);
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: left;
+    font-size: 12px;
+    height: 60px;
+    font-family: "Montserrat";
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left:20px;
+    z-index: 1000;
+    cursor: pointer;
+    border-radius: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* letter-spacing: 1px; */
+    font-weight: 700;
   }
 
   footer {
@@ -412,9 +468,9 @@ section h3.section-subheading {
     padding-top: 75px;
   }
   header .intro-text .intro-heading {
-    font-family: "Gloria Hallelujah","Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-family: "Gloria Hallelujah","Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
     text-transform: uppercase;
-    font-weight: 700;
+    /*font-weight: 700;*/
     font-size: 62px;
     line-height: 72px;
     margin-bottom: 50px;
@@ -437,10 +493,7 @@ section h3.section-subheading {
 
 
 @media (min-width: 1024px) {
-  header .intro-text {
-    /*padding-top: 300px;*/
-    padding-bottom: 200px;
-  }
+
   footer {
     display:none;
   }
@@ -450,7 +503,7 @@ section h3.section-subheading {
   }*/
   header .intro-text .intro-heading {
     text-transform: uppercase;
-    font-weight: 700;
+    /*font-weight: 700;*/
     font-size: 76px;
     line-height: 90px;
     margin-bottom: 50px;
@@ -459,16 +512,17 @@ section h3.section-subheading {
 
 @media (min-width: 1200px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 210px;
     padding-bottom: 200px;
   }
+
   /*header .chapter {
     font-family: 'UnifrakturMaguntia', cursive;
     font-size: 40px;
   }*/
   header .intro-text .intro-heading {
     text-transform: uppercase;
-    font-weight: 700;
+    /*font-weight: 700;*/
     font-size: 84px;
     line-height: 113px;
     margin-bottom: 50px;
@@ -491,7 +545,7 @@ section h3.section-subheading {
 
 @media (min-width: 1300px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 196px;
     padding-bottom: 200px;
   }
   /*header .chapter {
@@ -500,7 +554,7 @@ section h3.section-subheading {
   }*/
   header .intro-text .intro-heading {
     text-transform: uppercase;
-    font-weight: 700;
+    /*font-weight: 700;*/
     font-size: 84px;
     line-height: 146px;
     margin-bottom: 50px;
@@ -541,7 +595,7 @@ section h3.section-subheading {
   header .intro-text .intro-heading {
 
     text-transform: uppercase;
-    font-weight: 700;
+    /*font-weight: 700;*/
     font-size: 91px;
     line-height: 114px;
     margin-bottom: 50px;
@@ -1253,22 +1307,7 @@ html, body {
   padding:0px;
 }
 
-.btn-toggle a{
-  display:block;
-  width: 100%;
-  color: white;
-  height: 60px;
-  font-family: 'Gloria Hallelujah',cursive;
-  background-color: #302013;
-  text-align: left;
-  font-size: 20px;
-  height: 80px;
-  padding-top:20px;
-  padding-left: 40px;
-  margin-bottom:10px;
-  cursor:pointer;
 
-}
 
 .btn-push {
   display:block;
@@ -1287,7 +1326,6 @@ html, body {
 
 .button-press {
   border-radius: 15px;
-  box-shadow: 0 9px #999;
 }
 
 .button-toggle:hover {background-color: #000}
@@ -1323,4 +1361,12 @@ footer {
   color: #ffffff;
   text-align: center;
   z-index: 1;
+}
+
+.black {
+  background-color:black;
+}
+
+.hallelujah {
+  font-family:gloria Hallelujah;
 }

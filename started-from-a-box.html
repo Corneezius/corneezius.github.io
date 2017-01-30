@@ -18,6 +18,7 @@
     <link href="css/hover.css" rel="stylesheet" media="all">
     <!-- <link rel="stylesheet" href="css/blink-load.css"> -->
     <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/blink-load.css">
 
 
     <!-- Custom Fonts -->
@@ -47,7 +48,7 @@
     <meta property="og:url"                content="http://www.corneezius.com/started-from-a-box.html" />
     <meta property="og:type"               content="article" />
     <meta property="og:title"              content="STARTED FROM A BOX" />
-    <meta property="og:description"        content="1.I Like Rocks Pt.1     2.She Don't Luv You     3.Banners     4.I Like Rocks Pt.2" />
+    <meta property="og:description"        content="1.I Like Rocks Pt.1 2.She Don't Luv You 3.Banners 4.I Like Rocks Pt.2" />
     <meta property="og:image"              content="http://www.corneezius.com/css/images/box2.png" />
     <meta name="author" content="Cornelius Range" />
     <link rel="image_src" href="css/images/box2.png"/>
@@ -58,49 +59,38 @@
 
 </head>
 
-<body>
+<body="noscroll">
 <!-- Demo content -->
+ <div id="loader-wrapper">
+  <div id="corn">Corneezius</div>
+  <div id="rumble">Rumble Capital Presents</div>
+  <div id="credit">Produced By Cornelius Range</div>
+    <!-- CSS3 preloader, each div is a soundbar -->
+  <div id='bars'>
+    <div class='bar'></div>
+    <div class='bar'></div>
+    <div class='bar'></div>
+    <div class='bar'></div>
+    <div class='bar'></div>
+    <div class='bar'></div>
+    <div class='bar'></div>
+    <div class='bar'></div>
+    <div class='bar'></div>
+    <div class='bar'></div>
+  </div>
 
-  <!-- <div id="loader-wrapper">
+    <video playsinline play poster="fam.png" id="bgvid2">
+      <source src="css/mom1.mp4">
+    </video>
+    <div id="rumble">Rumble Capital Presents</div>
+    <div class="title">
+      <div id="chapter">Chapter 1</div>
+      <div id="started">Started From A Box</div>
+    </div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
 
-    <div id="corn">Corneezius</div>
-    <div id="rumble">Rumble Capital Presents</div> -->
-      <!-- <div id="credit">Produced By Cornelius Range</div>
-      <audio controls play id="coats">
-        <source src="css/coats2.wav" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-        <video playsinline play poster="fam.png" id="bgvid">
-          <source src="css/night.mp4">
-        </video>
-        <div id="rumble">Rumble Capital Presents</div>
-        <video playsinline play poster="fam.png" id="bgvid2">
-          <source src="css/voicep2.mp4">
-        </video> -->
-        <!-- <div class="overlay_loader">
-          <div class="title">
-            <div id="chapter">Chapter 1</div>
-            <div id="started">Started From A Box</div>
-          </div> -->
-
-          <!-- <div class="loader">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div> -->
-        <!-- </div> -->
-
-        <!-- <video playsinline preload="true" poster="fam.png" id="bgvid">
-          <source src="css/voice.mp4">
-        </video>
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-        </div>
-		</div> -->
 <!-- Page Wrapper -->
   <div class="wrapper">
     <!-- Navigation -->
@@ -119,7 +109,7 @@
                   <li class="hidden">
                   </li>
                   <li>
-                      <a href="#openModal" style="background:none">Notes</a>
+                      <a href="#openModal" style="background:none" >Notes</a>
                   </li>
 
                   <li>
@@ -134,13 +124,13 @@
 
     <!-- Header -->
     <header>
-      <!-- <video playsinline autoplay loop poster="fam.png" id="corner">
-        <source src="css/box.mp4">
-      </video> -->
+      <video playsinline poster="fam.png" id="bgvid">
+        <source src="css/boxcomp.mp4">
+      </video>
       <div class="intro-text">
         <div class="intro-heading" style="z-index:100">Started From A Box</div>
         <br>
-        <div class="intro-lead-in">Corneezius</div>
+        <!-- <div class="intro-lead-in">Corneezius</div> -->
       </div>
     </div>
     </header>
@@ -151,11 +141,11 @@
           <div class="row">
             <div class="col-xs-12 text-center">
               <div class="btn-toggle">
-                <a href="#" class="button-press">PushForParty</a>
-                <a href="#pt1" class="button-press">I Like Rocks Pt.1</a>
-                <a href="#luv" class="button-press">She Don't Luv You</a>
-                <a href="#banner" class="button-press">Banners</a>
-                <a href="#pt2" class="button-press">I Like Rocks Pt.2</a>
+                <a href="#party" class="button-press hvr-grow" id="push">PushForParty</a>
+                <a href="#pt1" class="button-press hvr-grow">I Like Rocks Pt.1</a>
+                <a href="#luv" class="button-press hvr-grow">She Don't Luv You</a>
+                <a href="#banner" class="button-press hvr-grow">Banners</a>
+                <a href="#pt2" class="button-press hvr-grow">I Like Rocks Pt.2</a>
               </div>
             </div>
           </div>
@@ -181,7 +171,7 @@
 
                     When police come knocking<br>
                     Rocks put that shit away<br>
-                    But Mr. Potato Head is a snitch,<br>
+                    But Mr. Potato Head is undercover<br>
                     And the sting is underway<br><br>
 
                     Why Mr.Potato Head<br>
@@ -192,9 +182,9 @@
                     <strong>Stop The Violence</strong><br><br>
 
                     So Rocks pull out their machetes<br>
-                    Cuz Rocks like Strife<br>
-                    Rocks Got Guns<br>
-                    Rocks Got Knives<br><br>
+                    Cuz Rocks life strife<br>
+                    Rocks got guns<br>
+                    Rocks got knives<br><br>
 
                     BOOM, goes the door<br>
                     Freeze, get down on your knees!<br>
@@ -202,10 +192,10 @@
                     Rocks don’t got knees<br><br>
 
                     Wait guys, I think this one is a baby, it’s licking my face like a puppy<br>
-                    Johnson, step away! They’re all high on bath salts!<br>
+                    Johnson, put it down! They’re all high on bath salts!<br>
                     But its just a ba-<br>
                     CHOMP<br>
-                    Sweet Jesus, Mary and Maury<br>
+                    Holy Mongolian Clusterfuck<br>
                     BLOCKA BLOCKA<br>
                     <em>footsteps moving rapidly</em><br>
                     Watch out for the little one!<br>
@@ -243,12 +233,12 @@
                     Let the squad get away<br>
                     Rock starts shooting<br>
                     Rock shoots away<br>
-                    BLOCKA BLOCKA BLOCKA<br><br>
+                    BLOCKA BLOCKA BLOCKA<br><br><br><br><br><br>
 
-                    <h2 id="luv" class="section-heading">She Don't Luv You</h2>
+                    <h2 id="luv" class="section-heading short-poem" style="margin-top:-190px;padding-top:190px">She Don't Luv You</h2>
                     <h3>If she poots on you<br>
                     Run away<br>
-                    She don’t luv you<br></h3><br><br>
+                    She don’t luv you<br></h3><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
                     <h2 id="banner" class="section-heading">Banners</h2>
                     <h3>One last gasp for air<br>
@@ -262,7 +252,7 @@
                     Body adrift in a far off place<br>
                     Not Today<br>
                     Not Today<br>
-                    Deep below the surface<br></h3><br><br>
+                    Deep below the surface<br></h3><br><br><br><br><br><br><br>
 
                     <h2 id="pt2" class="section-heading">I Like Rocks Pt.2</h2>
                     <h3>High on PCP<br>
@@ -280,41 +270,33 @@
                     But "Wait your turn bro"<br>
                     "Please try later"<br>
                     From Top of Rock Lungs<br>
-                    Man Fuck These Haters<br>
+                    Man, Fuck These Haters<br>
                     Rock Like to Party<br>
                     Got a Whole New Clique<br>
                     Rock Like to Party<br>
                     Got A Whole New Schicht<br>
                     Certified Platinum, everything clicked<br>
                     Now they luv big Rock<br>
-                    Whip out big Rock —--<br><br>
+                    Whip out big Rock ---<br><br>
 
 
-                    <div class=”dream” style="padding: 20px; background: #696969;border-radius: 12px; border-color:#fff border"><h4>-Didn't I tell yo little ass to go to sleep? You know what I'm bout to get my belt...
+                    <div class=”dream” style="padding: 20px; background: #696969;border-radius: 12px; border-color:#fff border"><h4>
 
-                    -That won't be necessary!
+                    -Knock knock! Hey, little guy! Are you excited for your first day of kindergarten tomorrow?<br><br>
+                    -Yep.<br><br>
+                    -Good! Now, put those silly pet rocks away and get some rest. Don't make me come back up here... or I'll get the tickle monster!</h4></div><br>
 
-                    -
-
-                      Big Rock What?! You've got your first day of kindergarten tomorrow! Put those silly pet rocks away and go to sleep. Don't make me come in here again.... <br><br>
-                    -Alright, alright.Just let me say goodnight.Jeesh....</h4></div><br>
-
-
-                    <h3>Many try to break him<br>
+                    <h3><em>Whispering</em><br>
+                    Many try to break him<br>
                     But Rock don’t crack<br>
                     ‘Stead Rocks Waging War<br>
                     On All Things Wack<br>
-                    With stories so real they read in 3D<br>
-                    People saying I'm out of my mind<br>
-                    And I might be<br>
-                    But who else is going<br>
-
                     Hurling Rhymes from Olympus<br>
                     Ridiculous,  Magnificent<br>
-                    Feats Seem Unbelievable<br>
+                    Feats Unbelievable<br>
                     But Rock the one's believing it<br>
-                    The Odds were out to get him, out for blood<br>
-                    They brought their whole damn crew<br>
+                    The Odds were out to get him<br>
+                    They brought the whole damn crew<br>
                     But Rock was kind of hungry so he did, what he do<br>
                     He bit their faces off<br>
                     All of them<br>
@@ -326,13 +308,18 @@
                     But he Started from a Box<br>
                     Spitting stadium bars<br></h3><br>
 
-                    <h5>-CORNEEZIUS</h5>
+                    <h5 class="hallelujah">-CORNEEZIUS</h5>
                     <br>
                     <img src="css/images/petrock.jpg" alt style="width:60%; border-radius:10px" />
                     <br>
-
+                  <div class="social">
+                    <!-- LikeBtn.com BEGIN -->
+                        <span class="likebtn-wrapper" data-theme="custom" data-btn_size="60" data-f_size="50" data-icon_size="60" data-icon_l_c_v="#777777" data-icon_d_c_v="#777777" data-bg_c="#ffffff" data-brdr_c="#ffffff" data-f_family="Impact" data-rich_snippet="true" data-show_like_label="false" data-dislike_enabled="false" data-icon_dislike_show="false" data-voting_cancelable="false" data-counter_clickable="true" data-counter_frmt="km" data-popup_disabled="true" data-item_url="www.corneezius.com" data-item_title="Corneezius: The Album" data-item_description="8 creative code projects" data-item_image="http://www.corneezius.com/images/corneezius2.jpg" data-tooltip_enabled="false"></span>
+                        <script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
+                    <!-- LikeBtn.com END -->
                   </div>
                 </div>
+              </div>
 
 
 <!--
@@ -348,8 +335,7 @@
 
             </div>
           </div>
-        </div>
-        </div>
+
     </section>
 
     <!-- Footer Styles -->
@@ -377,6 +363,7 @@
     <script src="js/scrolltop.js"></script>
     <script src="js/video.js"></script>
     <script src="js/anchorScroll.js"></script>
+    <script src="js/playvid.js"></script>
 
 
         <!-- Plugin JavaScript -->

@@ -192,7 +192,7 @@
 }
 
 #rumble {
-  top:50%;
+  top:40%;
   z-index:1015;
   color:#e5e5e5;
   position:relative;
@@ -200,36 +200,26 @@
   text-align:center;
   width:100%;
   margin:0 auto;
-  font-size:30px;
+  font-size:1.5em;
   text-transform: uppercase;
   font-weight:700;
   margin-top:0;
-  letter-spacing:5px;
+  letter-spacing:2px;
   display: none;
-
 }
 
-#memphis {
-  top:40%;
-  z-index:1015;
-  color:#e5e5e5;
-  position:absolute;
-  font-family: ''futura_md_btmedium',"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif';
-  text-align:center;
-  width:100%;
-  margin:0 auto;
-  font-size:2em;
-  text-transform: uppercase;
-  font-weight:700;
-  margin-top:50px;
-  /*margin-bottom:50px;*/
-  letter-spacing:5px;
-  display:none;
-
+@media (min-width: 768px) {
+  #rumble {
+  top:45%;
+  font-size:2.2em;
+  letter-spacing:7px;
+  }
 }
+
+
 
 #corn {
-  top:40%;
+  top:25%;
   z-index:1015;
   color:#CF2A07;
   position:absolute;
@@ -237,71 +227,158 @@
   text-align:center;
   width:100%;
   margin:0 auto;
-  font-size:12em;
-  margin-top:-50px;
-
+  font-size:6em;
   text-transform: uppercase;
   font-weight:500;
   /*margin-top:50px;*/
   /*margin-bottom:50px;*/
   letter-spacing:2px;
   display:none;
-
 }
 
-#ninety-six {
-  top:40%;
-  z-index:1015;
-  color:#e5e5e5;
-  position:absolute;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align:center;
-  width:100%;
-  margin:0 auto;
-  font-size:2em;
-  text-transform: uppercase;
-  font-weight:700;
-  margin-top:0;
-  letter-spacing:5px;
-  display:none;
-  /*text-decoration: underline;*/
+@media only screen and (min-width: 425px) {
+#corn {
+  top:20%;
+  font-size:7em;
 }
+
+#credit {
+    top: 73%;
+    z-index: 1015;
+    color: #e5e5e5;
+    position: absolute;
+    font-family: afcamberwellone;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: -80px;
+    letter-spacing: 1.5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+#corn {
+  top:25%;
+  font-size:12em;
+}
+
+#bars {
+  top:43%;
+}
+
+#credit {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+#corn {
+  font-size:12em;
+}
+
+#bars {
+  top:54%;
+}
+
+#credit {
+  top:80%;
+  font-size: 1.2em;
+  }
+}
+
+
+
+
+:hov
+
+.cls
+
+element.style {
+    display: block;
+}
+
 
 #started {
-  top:40%;
-  z-index:1015;
-  color:#e5e5e5;
-  position:absolute;
-  font-family: 'futura_md_btmedium',"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align:center;
-  width:100%;
-  margin:0 auto;
-  font-size:4em;
-  text-transform: uppercase;
-  font-weight:700;
-  margin-top:50px;
-  margin-bottom:50px;
-  letter-spacing:5px;
-  display:none;
+    top: 40%;
+    z-index: 1015;
+    color: #e5e5e5;
+    position: absolute;
+    font-family: 'futura_md_btmedium',"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 9px;
+    display: none;
+  }
+
+  #chapter {
+      top: 40%;
+      z-index: 1015;
+      color: #e5e5e5;
+      position: absolute;
+      font-family: 'futura_md_btmedium',"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+      font-size: 1em;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-top: 0;
+      letter-spacing: 5px;
+      display: none;
+      text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  #chapter {
+    font-size:1.5em;
+  }
+
+  #started {
+    font-size:2.5em;
+}
 
 }
 
-#chapter {
-  top:40%;
-  z-index:1015;
-  color:#e5e5e5;
-  position:absolute;
-  font-family: 'futura_md_btmedium',"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align:center;
-  width:100%;
-  margin:0 auto;
-  font-size:2em;
-  text-transform: uppercase;
-  font-weight:700;
-  margin-top:0;
-  letter-spacing:5px;
-  display:none;
-  text-decoration: underline;
+@media only screen and (min-width: 1024px) {
+  #chapter {
+    font-size:2em;
+  }
+
+  #started {
+    font-size:4em;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+  #chapter {
+    font-size:2em;
+  }
+
+  #started {
+    font-size:4.2em;
+}
+
+}
+
+@media only screen and (min-width: 1440px) {
+  #chapter {
+    font-size:2em;
+  }
+
+  #started {
+    font-size:5em;
+}
+
 }
 
 .premier {
