@@ -10,3 +10,7 @@ $('a[href*="#"]:not([href="#"])').click(function() {
     }
   }
 });
+
+$(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
+});
