@@ -3873,13 +3873,13 @@ color: #e5e5e5;
 
 @media (min-width: 375px) {
 .tracks .text h2{
-	padding-left:22px;
+	/*padding-left:22px;*/
 }
 }
 
 @media (min-width: 425px) {
 .tracks .text h2{
-	padding-left:46px;
+	/*padding-left:46px;*/
 	padding-top: 50px;
   padding-bottom: 50px;
 }
