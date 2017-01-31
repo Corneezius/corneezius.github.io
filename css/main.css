@@ -3873,13 +3873,13 @@ color: #e5e5e5;
 
 @media (min-width: 375px) {
 .tracks .text h2{
-	padding-left:25px;
+	padding-left:5px;
 }
 }
 
 @media (min-width: 425px) {
 .tracks .text h2{
-	padding-left:50px;
+	padding-left:29px;
 	padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -3888,7 +3888,7 @@ color: #e5e5e5;
 @media (min-width: 768px) {
 .tracks .text h2{
 	font-size:1.8em;
-	padding-left:137px;
+	padding-left:110px;
 	padding-top: 55px;
   padding-bottom: 55px;
 }
@@ -3899,7 +3899,7 @@ color: #e5e5e5;
 
 .tracks .text h2{
 	font-size:2em;
-	padding-left:246px;
+	padding-left:214px;
 	padding-top: 65px;
   padding-bottom: 65px;
 }
@@ -3922,7 +3922,7 @@ color: #e5e5e5;
 @media (min-width: 1440px) {
 .tracks .text h2 {
 	font-size:2em;
-	padding-left:355px;
+	padding-left:330px;
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
