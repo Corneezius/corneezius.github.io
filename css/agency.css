@@ -424,6 +424,7 @@ section h3.section-subheading {
     bottom:0;
     right:0;
     z-index:1020;
+    display:none;
   }
 
   .btn-toggle a, .button-press{
