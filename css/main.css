@@ -3873,7 +3873,7 @@ color: #e5e5e5;
 
 @media (min-width: 375px) {
 .tracks .text h2{
-	/*padding-left:22px;*/
+	padding-left:25px;
 }
 }
 
@@ -3888,7 +3888,7 @@ color: #e5e5e5;
 @media (min-width: 768px) {
 .tracks .text h2{
 	font-size:1.8em;
-	padding-left:133px;
+	padding-left:152px;
 	padding-top: 55px;
   padding-bottom: 55px;
 }
@@ -3898,8 +3898,8 @@ color: #e5e5e5;
 @media (min-width: 1024px) {
 
 .tracks .text h2{
-	font-size:2em;
-	padding-left:250px;
+	font-size:1.8em;
+	padding-left:260px;
 	padding-top: 65px;
   padding-bottom: 65px;
 }
@@ -3907,14 +3907,12 @@ color: #e5e5e5;
 }
 
 @media (min-width: 1200px) {
+
 .tracks .text h2{
+	padding-left:274px;
 	font-size:2em;
 	padding-top: 70px;
   padding-bottom: 70px;
-}
-
-.tracks .text h2{
-	padding-left:246px;
 }
 
 }
