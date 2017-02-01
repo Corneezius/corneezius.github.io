@@ -3977,7 +3977,7 @@ color: #e5e5e5;
 
 @media (min-width: 425px) {
 .tracks .text h2{
-	/*padding-left:46px;*/
+	padding-left:47px;
 	padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -3990,7 +3990,7 @@ color: #e5e5e5;
 @media (min-width: 768px) {
 .tracks .text h2{
 	font-size:1.8em;
-	padding-left:152px;
+	padding-left:138px;
 	padding-top: 55px;
   padding-bottom: 55px;
 }
