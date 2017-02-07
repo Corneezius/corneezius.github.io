@@ -8,7 +8,7 @@
 
 ####   [1. Started From A Box](http://www.corneezius.com/started-from-a-box.html)
 
-(http://www.corneezius.com/css/images/startedmeta.png)
+(![alt text](https://github.com/Corneezius/corneezius.github.io/css/images/startedmeta.png)
 
 
 
