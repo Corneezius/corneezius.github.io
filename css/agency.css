@@ -1383,7 +1383,7 @@ footer {
   margin-bottom:0px;
   font-size:17px;
   margin-left: 15px;
-  font-family:helvetica;
+  font-family:'Inconsolata', monospace;
 }
 
 .chapter {
@@ -1394,7 +1394,7 @@ footer {
 .modal-title {
   text-align:center;
   color: black;
-  font-family:'futura_md_btmedium';
+  font-family:'Inconsolata', monospace;
   margin-bottom: 20px;
   margin-top:20px;
   font-size:19px;
