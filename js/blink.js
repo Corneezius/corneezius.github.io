@@ -4,6 +4,7 @@ $(window).on('beforeunload', function() {
 
 //
 $(document).ready(function() {
+  $('#basicModal').hide();
 	$('#bgvid2').hide();
 	$('#bgvid3').hide();
 	$('#bgvid2')[0].play();
