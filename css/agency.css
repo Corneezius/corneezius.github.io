@@ -1371,3 +1371,113 @@ footer {
 .hallelujah {
   font-family:gloria Hallelujah;
 }
+
+.modal-open {
+  section {
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    filter: blur(20px);
+  }
+}
+.lead {
+  margin-bottom:0px;
+  font-size:17px;
+  margin-left: 15px;
+  font-family:helvetica;
+}
+
+.chapter {
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.modal-title {
+  text-align:center;
+  color: black;
+  font-family:'futura_md_btmedium';
+  margin-bottom: 20px;
+  margin-top:20px;
+  font-size:19px;
+}
+
+
+.modal-dialog {
+  .modal-content {
+    border-radius: 0;
+    box-shadow: none;
+    background-color: rgba(255,255,255,.9);
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow:hidden;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 425px) {
+.modal-title {
+    font-size: 22px;
+  }
+}
+
+
+@media (min-width: 768px) {
+.modal-dialog {
+    width: 500px;
+  }
+
+  .modal-title {
+    margin-bottom:28px;
+    margin-top: 25px;
+    font-size:30px;
+  }
+
+  .chapter {
+    font-size: 23px;
+    text-decoration: underline;
+  }
+
+  .lead {
+    font-size:24px;
+    line-height:1.5;
+  }
+}
+.modal-backdrop {
+  background-color: black;
+}
+.columns {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.modal-open {
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+}
+
+.modal {
+  display: block;
+  margin-top: 40%;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    margin-top:12%;
+  }
+}
+
+img {
+  width: 100%;
+  cursor: pointer;
+}
+
+/*.tech-used {
+  font-weight:300;
+  font-style:italic;
+}*/
+
+.modal-footer {
+  border-top:none;
+}

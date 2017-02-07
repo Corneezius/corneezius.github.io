@@ -3961,8 +3961,10 @@ display:none;
 color: #e5e5e5;
 }
 
-.profile {
-	font-size:43px;
+.preview {
+	margin:0;
+	font-size:.4em;
+	  margin-right: 10px;
 }
 
 .track-number {
