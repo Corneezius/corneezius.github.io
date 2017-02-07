@@ -302,7 +302,7 @@ element.style {
 
 
 #started {
-    top: 40%;
+    top: 30%;
     z-index: 1015;
     color: #e5e5e5;
     position: absolute;
@@ -315,26 +315,14 @@ element.style {
     font-weight: 100;
     margin-top: 50px;
     margin-bottom: 50px;
-    letter-spacing: 9px;
+    letter-spacing: 3px;
     display: none;
   }
 
-  #chapter {
-      top: 40%;
-      z-index: 1015;
-      color: #e5e5e5;
-      position: absolute;
-      font-family: 'futura_md_btmedium',"Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      text-align: center;
-      width: 100%;
-      margin: 0 auto;
-      font-size: 1em;
-      text-transform: uppercase;
-      font-weight: 700;
-      margin-top: 0;
-      letter-spacing: 5px;
-      display: none;
-      text-decoration: underline;
+@media only screen and (min-width: 425px) {
+  #started {
+    letter-spacing:8px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -343,7 +331,9 @@ element.style {
   }
 
   #started {
+    top:40%;
     font-size:2.5em;
+    letter-spacing:9px;
 }
 
 }
@@ -355,6 +345,7 @@ element.style {
 
   #started {
     font-size:4em;
+    letter-spacing:10px;
 }
 
 }
