@@ -405,7 +405,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   header {
-    background-image: url('images/fam3.png');
+    background-image: url('images/Fam.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -1480,4 +1480,15 @@ img {
 
 .modal-footer {
   border-top:none;
+}
+
+.tint {
+z-index: 1;
+height: 100%;
+width: 100%;
+/* position: fixed; */
+overflow: auto;
+top: 0px;
+left: 0px;
+background: rgba(0, 0, 0, 0.7);
 }

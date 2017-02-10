@@ -30,7 +30,7 @@ $(document).ready(function() {
 		// $('#chapter').show();
 		$('#started').show();
 	}, 5950);
-
+  //
 	setTimeout(function(){
 		$('#mainNav').show();
 		$('#chapter').hide();
@@ -42,6 +42,7 @@ $(document).ready(function() {
 
 	setTimeout(function(){
 		$('#mainNav').show();
+    $('footer').show();
 		$('.btn-toggle').show();
 	}, 9000);
 
