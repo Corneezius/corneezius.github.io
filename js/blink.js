@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 	setTimeout(function(){
 		$('#mainNav').show();
-    // $('footer').show();
+    $('footer').show();
 		$('.btn-toggle').show();
 	}, 9000);
 
