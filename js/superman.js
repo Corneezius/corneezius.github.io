@@ -13,7 +13,7 @@ Enjoy responsibly!
 */
 
 $(document).ready(function() {
-
+$('footer').show();
 	setTimeout(function(){
     $( 'body' ).removeClass( '.superman' );
 		$('body').addClass('loaded');
@@ -21,6 +21,7 @@ $(document).ready(function() {
     $('.base').hide();
     $('.face').hide();
     $('.longfazers').hide();
+		
 	}, 3000);
 
 

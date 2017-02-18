@@ -4128,3 +4128,35 @@ display:none;
 	}
 
 }
+
+/* Collapsing Navbar Styles */
+
+
+  .navbar-default {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    padding: 15px 0;
+		background-color:black;
+		border-color:none;
+    /* Add additional styles here for the UNCOLLAPSED state */
+  }
+  .navbar-default.affix {
+    padding: 0;
+    /* Add additional styles here for the COLLAPSED state */
+  }
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 15px 0;
+  background-color: #000;
+  color: #ffffff;
+  text-align: center;
+  z-index: 1;
+}
