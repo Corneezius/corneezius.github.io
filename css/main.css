@@ -4105,6 +4105,7 @@ display:none;
 	font-size: 150px;
 	font-weight:500;
 	display:none;
+	padding-top:20px;
 	}
 
 }
@@ -4116,6 +4117,19 @@ display:none;
 	font-size: 160px;
 	font-weight:500;
 	display:none;
+	padding-top:35px;
+	}
+
+}
+
+@media (min-width: 1200px) and (min-height: 900px) {
+
+	.title2 {
+	font-family: AfCamberWellone;
+	font-size: 160px;
+	font-weight:500;
+	display:none;
+	padding-top:120px;
 	}
 
 }
@@ -4124,9 +4138,10 @@ display:none;
 
 	.title2 {
 	font-family: AfCamberWellone;
-	font-size: 200px;
+	font-size: 250px;
 	font-weight:500;
 	display:none;
+	padding-top:65px;
 	}
 
 }
@@ -4140,7 +4155,7 @@ display:none;
     transition: all .35s;
     padding: 15px 0;
 		background-color:black;
-		border-color:none;
+		border-color:black;
     /* Add additional styles here for the UNCOLLAPSED state */
   }
   .navbar-default.affix {
