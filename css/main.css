@@ -3622,8 +3622,12 @@ z-index: 1014;
 color:#CF2A07;
 margin-bottom: 10px;
 display:none;
+}
+
+@media screen (max-width: 1024px) and (min-height:700 ) {
 
 }
+
 
 
 @media screen and (max-width: 736px) {
@@ -3641,8 +3645,6 @@ font-family: AfCamberWellone;
 font-size: 150px;
 font-weight:500;
 display:none;
-
-
 }
 
 @media only screen and (min-width: 1661px) and (max-width: 2700px) {
@@ -3752,8 +3754,26 @@ display:none;
 	.album {
 		margin:0 auto;
 	}
+}
 
+@media only screen and (min-height: 715px) {
+	.title {
+		font-family: AfCamberWellone;
+		font-size: 175px;
+		font-weight:500;
+		display:none;
+		padding-top: 45px;
+	}
+}
 
+@media only screen and (min-height: 900px) {
+	.title {
+		font-family: AfCamberWellone;
+		font-size: 175px;
+		font-weight:500;
+		display:none;
+		padding-top: 150px;
+	}
 }
 
 @media only screen and (min-width: 700px) and (max-width: 900px)  {
@@ -4131,7 +4151,17 @@ display:none;
 	display:none;
 	padding-top:120px;
 	}
+}
 
+@media (min-width: 1200px) and (min-height: 715px) {
+
+	.title2 {
+	font-family: AfCamberWellone;
+	font-size: 160px;
+	font-weight:500;
+	display:none;
+	padding-top:46px;
+	}
 }
 
 @media (min-width: 1440px) {
