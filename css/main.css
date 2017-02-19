@@ -3776,6 +3776,18 @@ display:none;
 	}
 }
 
+@media (min-width: 1400px) and (min-height: 950px) {
+	.title {
+		font-family: AfCamberWellone;
+		font-size: 275px;
+		font-weight:500;
+		display:none;
+		padding-top: 35px;
+	}
+}
+
+
+
 @media only screen and (min-width: 700px) and (max-width: 900px)  {
 	.title {
 		font-family: AfCamberWellone;
@@ -4063,7 +4075,7 @@ margin-right: 150px;
 
 @media (min-width: 1440px) {
 .tracks .text h2 {
-	font-size:2em;
+	font-size:2.8em;
 	padding-left:357px;
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -4154,7 +4166,6 @@ display:none;
 }
 
 @media (min-width: 1200px) and (min-height: 715px) {
-
 	.title2 {
 	font-family: AfCamberWellone;
 	font-size: 160px;
