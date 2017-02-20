@@ -14,6 +14,7 @@ Enjoy responsibly!
 
 $(document).ready(function() {
 $('footer').show();
+$('#btn-menu').hide();
 	setTimeout(function(){
     $( 'body' ).removeClass( '.superman' );
 		$('body').addClass('loaded');
@@ -21,7 +22,7 @@ $('footer').show();
     $('.base').hide();
     $('.face').hide();
     $('.longfazers').hide();
-		
+		$('#btn-menu').show();
 	}, 3000);
 
 
