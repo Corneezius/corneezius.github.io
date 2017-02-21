@@ -4243,7 +4243,7 @@ button:hover {
 }
 ul.dropdown-menu {
 	background-color:black;
-}
+}-
 
 .dropdown-header {
 	color:gold;
@@ -4257,4 +4257,10 @@ ul.dropdown-menu {
 .dropdown-menu>li>a:hover {
 	color: gold !important;
 	background-color:black;
+}
+
+.transparent {
+	background-color: transparent;
+	color:transparent;
+	border-color: transparent;
 }
