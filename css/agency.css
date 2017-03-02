@@ -1468,6 +1468,12 @@ footer {
   }
 }
 
+@media (min-width: 768px) {
+  footer {
+    height:30px;
+  }
+}
+
 img {
   width: 100%;
   cursor: pointer;
@@ -1491,8 +1497,4 @@ overflow: auto;
 top: 0px;
 left: 0px;
 background: rgba(0, 0, 0, 0.7);
-}
-
-#btn-menu{
-  float:right;
 }
