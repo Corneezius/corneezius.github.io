@@ -1,4 +1,4 @@
-//
+
 $(document).ready(function() {
 	  $('.load-title').hide();
 		$('#name').hide(0).fadeIn(1000);
@@ -24,4 +24,8 @@ $(document).ready(function() {
 			$('body').removeClass("noscroll");
 		}, 6400);
 
+});
+
+$(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
 });
