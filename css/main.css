@@ -4296,7 +4296,7 @@ ul.dropdown-menu {
 .help-tip:hover p{
 	display:block;
 	transform-origin: 100% 0%;
-
+	z-index: 1000;
 	-webkit-animation: fadeIn 0.3s ease-in-out;
 	animation: fadeIn 0.3s ease-in-out;
 
