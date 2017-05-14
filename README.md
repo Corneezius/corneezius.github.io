@@ -1,4 +1,4 @@
-#[CORNEEZIUS: The Code Album (corneezius.com)]
+#[CORNEEZIUS: The Code Album] (corneezius.com)
 ##An Album of 8 Code Projects
 
 ![alt text](https://github.com/Corneezius/corneezius.github.io/blob/master/css/images/corneezius-title.png)
