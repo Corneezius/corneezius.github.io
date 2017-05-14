@@ -1,5 +1,5 @@
 #   [CORNEEZIUS: The Code Album](http://www.corneezius.com/)
-##An Album of 8 Code Projects
+## An Album of 8 Code Projects
 
 ![alt text](https://github.com/Corneezius/corneezius.github.io/blob/master/css/images/corneezius-title.png)
 
