@@ -10,7 +10,7 @@
 
 ##   [2. Fluttr](https://fluttr.one/)
 
-![alt text](https://github.com/Corneezius/corneezius.github.io/blob/master/css/images/startedmeta.png)
+![alt text](https://github.com/Corneezius/corneezius.github.io/blob/master/css/images/fluttr3.png)
 
 
 
