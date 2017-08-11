@@ -13,16 +13,16 @@ $(document).ready(function() {
 		$('#bars').show();
 	}, 3000);
 	//
-  // setTimeout(function(){
-	// 	$('.load-title').removeClass("load-title");
-	// 	$('#credit').hide();
-	// 	$('#bars').hide();
-  // }, 6000);
-	// 	//
-  // setTimeout(function(){
-	// 	  $('body').addClass('loaded');
-	// 		$('body').removeClass("noscroll");
-	// 	}, 6400);
+  setTimeout(function(){
+		$('.load-title').removeClass("load-title");
+		$('#credit').hide();
+		$('#bars').hide();
+  }, 6000);
+		//
+  setTimeout(function(){
+		  $('body').addClass('loaded');
+			$('body').removeClass("noscroll");
+		}, 6400);
 
 });
 
