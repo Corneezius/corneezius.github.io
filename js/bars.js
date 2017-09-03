@@ -29,3 +29,26 @@ $(document).ready(function() {
 $(window).on('beforeunload', function() {
     $(window).scrollTop(0);
 });
+
+// Fade in header as page scrolls down
+$(window).scroll(function() {
+  var scrollTop = $(this).scrollTop();
+
+  $('#header-fade').css({
+    opacity: function() {
+      var elementHeight = $(this).height(),
+          opacity = ((1 - (elementHeight - scrollTop) / elementHeight) * 0.78);
+
+      return opacity;
+    }
+  });
+
+  $('#footer-fade').css({
+    opacity: function() {
+      var elementHeight = $(this).height(),
+          opacity = ((1 - (elementHeight - scrollTop) / elementHeight) * 0.78);
+
+      return opacity;
+    }
+  });
+});
