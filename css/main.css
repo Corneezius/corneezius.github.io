@@ -4355,3 +4355,13 @@ ul.dropdown-menu {
 	0% { opacity:0; }
 	100% { opacity:100%; }
 }
+
+footer {
+	background:black;
+	height:30px;
+}
+
+#main-nav {
+	background:black;
+	height:30px;
+}
