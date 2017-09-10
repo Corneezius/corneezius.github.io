@@ -3465,6 +3465,12 @@
 		margin-left:60px;
 	}
 
+	#getting-started {
+		text-align:center;
+		font-size:15px;
+		margin-top:-60px;
+	}
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -4353,6 +4359,7 @@ ul.dropdown-menu {
 	background:black;
 	height:30px;
 	opacity:0;
+	display:none
 }
 
 footer {
