@@ -3614,15 +3614,8 @@
 
 /**/
 
-.load-title {
-font-family: AfCamberWellone;
-font-size: 150px;
-font-weight:500;
-z-index: 1014;
-color:#CF2A07;
-margin-bottom: 10px;
-display:none;
-}
+
+
 
 @media screen (max-width: 1024px) and (min-height:700 ) {
 
@@ -4356,17 +4349,16 @@ ul.dropdown-menu {
 	100% { opacity:100%; }
 }
 
-footer {
-	background:black;
-	height:50px;
-}
-
 #header-fade {
 	background:black;
 	height:30px;
 	opacity:0;
 }
 
-#footer-fade {
-	opacity:0;
+footer {
+	position:fixed;
+	height:40px;
+	bottom: 0px;
+	width: 100%;
+	background:black;
 }
