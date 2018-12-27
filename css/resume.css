@@ -225,3 +225,7 @@ a:hover, a:focus, a:active {
 .sub-title {
   padding-left: 10px;
 }
+
+.black {
+  color:#232425!important;
+}
