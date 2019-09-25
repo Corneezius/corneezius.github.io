@@ -12,17 +12,39 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
+
+// function to updateCount
 var push = document.getElementById('push');
-
-
-
 push.addEventListener('click', function push() {
 
-  var updatePush = firebase.database().ref('pushCount/count');
-  updatePush.transaction(function(theCount) {
+  var updateCount = firebase.database().ref('pushCount/count');
+  updateCount.transaction(function(theCount) {
 
         console.log(theCount);
         return theCount + 1;
     });
+  // var updatePusher.firebase.database().ref('pushCount/pusher');
 
+console.log(getIp());
 }, false);
+// function to getIP address
+function getIp() {
+  var request = new XMLHttpRequest();
+  request.open('GET', 'https://api.ipify.org/?format=json', true);
+
+  request.onload = function() {
+    if (this.status >= 200 && this.status < 400) {
+      // Success!
+      var data = JSON.parse(this.response);
+      console.log(data);
+    } else {
+      // We reached our target server, but it returned an error
+      console.log("error");
+    }
+  };
+  request.onerror = function() {
+    // There was a connection error of some sort
+  };
+  request.send();
+
+}
