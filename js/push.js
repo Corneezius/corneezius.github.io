@@ -12,18 +12,17 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
+var push = document.getElementById('push');
 
-function push() {
-  // Increment pushCount by 1.
+
+
+push.addEventListener('click', function push() {
+
   var updatePush = firebase.database().ref('pushCount/count');
   updatePush.transaction(function(theCount) {
-    // if (theCount === null) {
-    //   return {pushCount: {count:1}}
-    // }
-    // else {
-        console.log(theCount +1);
+
+        console.log(theCount);
         return theCount + 1;
-    }
-    // If users/ada/rank has never been set, currentRank will be `null`.
-  });
-}
+    });
+
+}, false);
