@@ -18,6 +18,7 @@ push.addEventListener('click', async function() {
 	getIp();
 });
 
+
 // function to getIP address
 async function getIp() {
 	var request = new XMLHttpRequest();
@@ -31,6 +32,7 @@ async function getIp() {
 			updateCountRef
 				.orderByChild('ip')
 				.equalTo(data.ip)
+				.limitToFirst(1)
 				.once('value')
 				.then(function(snapshot) {
 					if (!snapshot.val()) {
@@ -38,8 +40,6 @@ async function getIp() {
 						updateCountRef.push({ count: 1, ip: data.ip });
 						return;
                     }
-                    let countOfusers = Object.keys(snapshot.val()).length + 1;
-                    document.getElementById("userCount").innerHTML = "User Count: " + countOfusers ;
 					snapshot.forEach(function(data) {
 						let val = snapshot.val();
 						firebase
@@ -60,6 +60,15 @@ async function getIp() {
 						return counter;
 					});
 				});
+
+				updateCountRef.orderByChild('ip').once('value')
+					.then((snapshot) => {
+						if(snapshot.val()) {
+							let countOfusers = Object.keys(snapshot.val()).length;
+							document.getElementById("userCount").innerHTML = "User Count: " + countOfusers ;
+						}
+
+				})
 		} else {
 			console.log('error');
 		}
