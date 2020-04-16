@@ -17,6 +17,11 @@ body {
   border-color: black;
 }
 
+#blue {
+  height: 40px;
+  width: 100%;
+  background: black;
+}
   /* Intro*/
   .noscroll {
     overflow:hidden;
