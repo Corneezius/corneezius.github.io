@@ -118,6 +118,22 @@ body {
     z-index:1012;
 }
 
+#skip {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  font-size: 12px;
+  color: #CF2A07 !important;
+  font-family: afcamberwellone;
+  padding: 0px;
+  letter-spacing: 2px;
+  height: 24px;
+  text-transform: none;
+  font-weight: bold;
+  background: black;
+  border-color: #CF2A07;
+}
+
 /*------Mobile Responsive -------------*/
 
 
