@@ -19,13 +19,13 @@ $(document).ready(function() {
 			$('#project-title').hide();
 			$('#bars').hide();
 			$('#artist-name').hide();
-	  }, 6000);
+	  }, 10000);
 
 
   setTimeout(function(){
 			$('body').removeClass("noscroll");
 		  $('body').addClass('loaded');
-		}, 6400);
+		}, 10400);
  });
 
 $(window).on('beforeunload', function() {
