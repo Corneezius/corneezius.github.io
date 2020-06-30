@@ -14,18 +14,18 @@ $(document).ready(function() {
 			$('#bars').show();
 		}, 3500);
 
-
-	  setTimeout(function(){
-			$('#project-title').hide();
-			$('#bars').hide();
-			$('#artist-name').hide();
-	  }, 10000);
-
-
-  setTimeout(function(){
-			$('body').removeClass("noscroll");
-		  $('body').addClass('loaded');
-		}, 10400);
+	//
+	//   setTimeout(function(){
+	// 		$('#project-title').hide();
+	// 		$('#bars').hide();
+	// 		$('#artist-name').hide();
+	//   }, 10000);
+	//
+	//
+  // setTimeout(function(){
+	// 		$('body').removeClass("noscroll");
+	// 	  $('body').addClass('loaded');
+	// 	}, 10400);
  });
 
 $(window).on('beforeunload', function() {
