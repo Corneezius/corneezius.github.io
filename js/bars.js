@@ -15,18 +15,27 @@ $(document).ready(function() {
 		}, 3500);
 
 	//
-	//   setTimeout(function(){
-	// 		$('#project-title').hide();
-	// 		$('#bars').hide();
-	// 		$('#artist-name').hide();
-	//   }, 10000);
-	//
-	//
-  // setTimeout(function(){
-	// 		$('body').removeClass("noscroll");
-	// 	  $('body').addClass('loaded');
-	// 	}, 10400);
+	  setTimeout(function(){
+			$('#project-title').hide();
+			$('#bars').hide();
+			$('#artist-name').hide();
+	  }, 10000);
+
+
+  setTimeout(function(){
+			$('body').removeClass("noscroll");
+		  $('body').addClass('loaded');
+		}, 10400);
+
+		setTimeout(function() {
+			var s = document.createElement("script");
+			s.type = "text/javascript";
+			s.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eeed4279d4dd544";
+			$("body").append(s);
+		}, 11000)
  });
+
+
 
 $(window).on('beforeunload', function() {
     $(window).scrollTop(0);
@@ -36,6 +45,11 @@ $( "#skip" ).click(function() {
 	$('#project-title').hide();
 	$('#bars').hide();
 	$('#artist-name').hide();
+
+	var s = document.createElement("script");
+  s.type = "text/javascript";
+  s.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eeed4279d4dd544";
+  $("body").append(s);
 
 setTimeout(function(){
 	$('body').removeClass("noscroll");
