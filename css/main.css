@@ -3869,7 +3869,7 @@ display:none;
 @media only screen and (max-width: 425px)  {
 .title {
 font-family: AfCamberWellone;
-font-size: 90px;
+font-size: 65px;
 font-weight:500;
 display:none;
 }
@@ -3877,7 +3877,7 @@ display:none;
 @media only screen and (max-width: 330px)  {
 .title {
 	font-family: AfCamberWellone;
-	font-size: 72px;
+	font-size: 50px;
 	font-weight:500;
 	display:none;
 }
